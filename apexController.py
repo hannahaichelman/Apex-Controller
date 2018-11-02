@@ -39,3 +39,5 @@ config_summ = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By
 config_summ.click()
 lab_dropdown = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.ID, 'nav-main-menu-name')))
 lab_dropdown.click()
+
+#now its better
